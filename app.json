@@ -19,9 +19,20 @@
   	},
 
   	"buildpacks": [
-      {
-      }
-  ],
+        {
+           "url": "heroku/python"
+        },
+  
+  
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+        },
+  
+        {
+          "url": "https://github.com/1337w0rm/heroku-buildpack-google-chrome"
+        }
+    ],
+  
 
   "stack": "heroku-20"
 }
